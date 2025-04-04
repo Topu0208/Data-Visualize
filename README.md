@@ -1,4 +1,4 @@
-# 📌 Phân Tích Dịch Vụ Du Lịch TP.HCM
+# 📌 Phân tích dịch vụ du lịch TP.HCM theo dữ liệu Google maps
 
 ## 🚀 Giới thiệu
 
@@ -6,42 +6,15 @@ Dự án này tập trung vào việc phân tích dịch vụ ăn uống, khách
 
 ## 📂 Cấu trúc thư mục
 ```
-├── data/               # Dữ liệu thu thập từ Google Maps
-├── src/                # Mã nguồn chính
-│   ├── main.py         # File chạy chính
-│   ├── analysis.py     # File phân tích dữ liệu
-│   ├── visualization.py # File trực quan hóa dữ liệu
-├── models/             # Lưu trữ mô hình phân tích
-├── notebooks/          # Notebook dùng để khám phá dữ liệu
-├── README.md           # File mô tả dự án
+├── src/                            # Mã nguồn chính
+│   ├── exploring_data.ipynb        # Khám phá dữ liệu đã thu thập
+│   ├── Dataset                     # Chứa tập dữ liệu thu thập
+│   ├── Processed_Dataset.csv       # Dataset sau khi đã xử lí
+|   ├── processing_data.ipynb       # Xứ lí dữ liệu
+├── Report.pdf/                     # Báo cáo đồ án
+├── Sile/                           # Slide trình bày đồ án
+├── README.md                       # File mô tả dự án
 ```
-
-## 📌 Yêu cầu hệ thống
-
-Trước khi chạy dự án, bạn cần cài đặt các thư viện cần thiết:
-```bash
-pip install -r requirements.txt
-```
-
-## 🔧 Cách chạy dự án
-
-1. Clone repository:
-   ```bash
-   git clone https://github.com/yourusername/project.git
-   cd project
-   ```
-2. Cài đặt dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Chạy phân tích dữ liệu:
-   ```bash
-   python src/analysis.py
-   ```
-4. Trực quan hóa kết quả:
-   ```bash
-   python src/visualization.py
-   ```
 
 ## 📊 Dashboard Power BI
 Bạn có thể xem bảng điều khiển phân tích dữ liệu tại link sau:
@@ -65,9 +38,3 @@ Bạn có thể xem bảng điều khiển phân tích dữ liệu tại link sa
 - **21120407** - Trần Phan Phúc Ân
 - **21120417** - Nguyễn Thị Ngọc Châm
 
-## 📜 Giấy phép
-
-Dự án này được phát hành dưới giấy phép [Tên giấy phép].
-
----
-📧 Liên hệ: [Email của bạn] hoặc mở issue nếu có câu hỏi!
